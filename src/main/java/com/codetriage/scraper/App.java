@@ -20,6 +20,7 @@ public class App {
       // With the document fetched, we use JSoup's title() method to fetch the title
       System.out.printf("Title: %s\n", doc.title());
 
+
       // In case of any IO errors, we want the messages written to the console
     } catch (IOException e) {
       e.printStackTrace();
